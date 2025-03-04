@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class AuthService {
 
-  httpClient:HttpClient = inject(HttpClient)
+  httpClient : HttpClient = inject(HttpClient)
   constructor() { }
 
   baseUrl:string = '';
